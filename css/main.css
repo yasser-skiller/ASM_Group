@@ -207,6 +207,34 @@ input[type=checkbox] {
 .checkout-form select{
     background-position: 1% !important;
 }
+
+
+/* slider 2 */
+
+#id .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #id  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 360px;
+  }
+
+  #id  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 320px;
+
+  }
+  #id .swiper-slide a:hover{
+    color: #e86f1e;
+  }
+  
+  
 @media (max-width:1150px) {
   
     .header-style-one .nav-outer{
@@ -237,6 +265,13 @@ input[type=checkbox] {
     .header-style-one .logo-box{
         width: auto !important;
     }
+
+    #id  .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 200px;
+        height: 260px;
+      }
 }
 
 @media (min-width:767px) {
@@ -246,91 +281,7 @@ input[type=checkbox] {
     }
 }
 
-/* slider */
 
 
-#er .swiper {
-    width: 250px;
-    height: 390px;
-  }
 
-  #er .swiper-slide {
-    background-color: #fff;
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 18px;
-    font-size: 22px;
-    font-weight: bold; */
-    /* color: #fff; */
-  }
-  #er .swiper-slide img{
-    height: 350px;
-    width: 250px;
-  }
-  #er .swiper-slide a:hover{
-    color: #e86f1e;
-  }
   
-
-
-  /* slider 2 */
-
-  #id .swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  #id  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 360px;
-  }
-
-  #id  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 320px;
-
-  }
-  #id .swiper-slide a:hover{
-    color: #e86f1e;
-  }
-  /*  */
-
-  .trips .swiper-container {
-    width: 100%;
-    height: 240px;
-    margin-bottom: 100px; }
-  
-  .trips .swiper-slide {
-    text-align: center;
-    border-radius: 25px;
-    width: 200px;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    -webkit-box-shadow: 5px 5px 5px 0px grey;
-            box-shadow: 5px 5px 5px 0px grey;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; }
-
-    .trips .swiper-slide p {
-        background: #dedede;
-        width: 100%;
-        height: 40px;
-        text-align: center;
-        font-weight: 500;
-        color: #000;
-        border-radius: 100% 100% 22px 20px;
-        padding-top: 10px; }

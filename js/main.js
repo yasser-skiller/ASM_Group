@@ -1,4 +1,7 @@
-let navItem = document.querySelectorAll('.main-header .navigation li a');
+
+
+// if(document.querySelector('.navigat')){
+    let navItem = document.querySelectorAll('.main-header .navigation li a');
 let navItem_arr = Array.from(navItem);
 
 window.addEventListener('load',()=>{
@@ -9,26 +12,24 @@ window.addEventListener('load',()=>{
        }
     });
 })
+// }
 
-// let Kind = document.querySelectorAll(".Kind input")
-// let KindTwo = document.querySelectorAll(".Kind .radio-option")
-
-
-
-// Kind.forEach(ele => {
-
-//     ele.addEventListener("click", ()=>{
-        
-//            setTimeout(() => {
-//             if(ele.checked === true){
-//                 console.log("ele",ele ,ele.checked)
-//                 ele.parentElement.classList.add("active")
-//             }
-//            }, 500);
-           
-        
-        
-//     })
-// });
-
-
+if(document.querySelector('.mySwiper')){
+    var swiper = new Swiper("#id .mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        loop: true,
+        centeredSlides: true,
+        slidesPerView: 4,
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+}
