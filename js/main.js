@@ -20,7 +20,7 @@ if(document.querySelector('.mySwiper')){
         grabCursor: true,
         loop: true,
         centeredSlides: true,
-        slidesPerView: 4,
+        slidesPerView: 3,
         coverflowEffect: {
           rotate: 50,
           stretch: 0,
