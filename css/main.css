@@ -17,6 +17,9 @@ body{
 .HomeHeader{
     position: relative;
 }
+.navbar-toggler{
+    margin-right: 20px;
+}
 .header-style-one .header-lower{
     background-color: #26262680 !important;
 }
@@ -172,11 +175,7 @@ body{
     color: #e39c05;
 }
 
-/* .tit{
-    font-size: 25px;
-    color: #e39c05;
-    font-weight: 200;
-} */
+
 .radio-option input:checked + label
 {
     border : 1px solid #e39c05;
@@ -245,6 +244,9 @@ input[type=checkbox] {
   
     .header-style-one .nav-outer{
         width: auto !important;
+    }
+    .page-title .auto-container{
+        padding: 20px !important;
     }
 }
 
