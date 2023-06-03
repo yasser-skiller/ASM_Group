@@ -175,7 +175,16 @@ body{
 {
     border : 1px solid #e39c05;
 }
-
+input[type=checkbox] {
+    accent-color: #e39c05;
+    margin: 4px 0 0;
+    line-height: normal;
+    width: 15px;
+    height: 15px;
+}
+.c_pointer{
+    cursor: pointer;
+}
 .pa{
     padding: 10px 10px 5px ;
 }
