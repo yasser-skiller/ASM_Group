@@ -172,11 +172,11 @@ body{
     color: #e39c05;
 }
 
-.tit{
+/* .tit{
     font-size: 25px;
     color: #e39c05;
     font-weight: 200;
-}
+} */
 .radio-option input:checked + label
 {
     border : 1px solid #e39c05;
