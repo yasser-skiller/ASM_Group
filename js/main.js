@@ -14,13 +14,20 @@ window.addEventListener('load',()=>{
 })
 // }
 
+let Num = 3
+if(window.innerWidth > 767){
+    Num = 3
+}else{
+    Num = 2
+}
+
 if(document.querySelector('.mySwiper')){
     var swiper = new Swiper("#id .mySwiper", {
         effect: "coverflow",
         grabCursor: true,
         loop: true,
         centeredSlides: true,
-        slidesPerView: 3,
+        slidesPerView: Num,
         coverflowEffect: {
           rotate: 50,
           stretch: 0,
