@@ -262,6 +262,8 @@ input[type=checkbox] {
 }
 
 @media (max-width:767px) {
+  
+    
     .header-style-one .nav-outer{
         width: 100% !important;
     }
