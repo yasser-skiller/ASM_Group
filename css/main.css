@@ -167,6 +167,10 @@ body{
 .projects-section .project-block img{
     height: 320px !important;
 }
+
+.rounded_pill{
+    border-radius: 40px;
+}
 @media (max-width:1150px) {
   
     .header-style-one .nav-outer{
