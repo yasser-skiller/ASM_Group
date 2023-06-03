@@ -4,7 +4,7 @@
 <!-- shoping-cart27:40-->
 <head>
 <meta charset="utf-8">
-<title>ASM Group | الطلبات </title>
+<title>ASM Group | خدمتنا </title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -77,11 +77,11 @@
         <div class="auto-container">
             <div class="inner-container clearfix rtl">
                 <div class="title-box">
-                    <h1> الطلبات</h1>
+                    <h1> خدمتنا</h1>
                     <span class="title">The Interior speak for themselves</span>
                 </div>
                 <ul class="bread-crumb clearfix">
-                    <li> الطلبات</li>
+                    <li> خدمتنا</li>
                     <li><a href="shoping-cart.html">الرئيسية</a></li>
                 </ul>
             </div>
@@ -90,55 +90,158 @@
     <!--End Page Title-->
 
      <!--Cart Section-->
-    <section class="cart-section">
-        <div class="auto-container">
-            <!--Cart Outer-->
-            <div class="cart-outer">
-                <div class="table-outer">
-                    <table class="cart-table rtl">
-                        <thead class="cart-header">
-                            <tr>
-                                <th>المنتج</th>
-                                <th class="prod-column">اسم المنتج</th>
-                                <th class="price">السعر</th>
-                                <th>الكمية</th>
-                                <th>الاجمالي</th>
-                                <th>حذف</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="prod-column">
-                                    <div class="column-box">
-                                        <figure class="prod-thumb"><a href="#"><img src="images/resource/products/12.jpg" alt=""></a></figure>
-                                    </div>
-                                </td>
-                                <td><h4 class="prod-title">Patient Ninja</h4></td>
-                                <td class="sub-total">$35.00</td>
-                                <td class="qty rtl"><div class="item-quantity"><input class="form-control" type="number" value="1" name="quantity"></div></td>
-                                <td class="total">$35.00</td>
-                                <td><a href="#" class="remove-btn"><span class="fa fa-remove"></span></a></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                
-            </div>
+    <section class="cart-section mt-0">
+        <div class="auto-container ">
+            
             
               <!--Checkout Details-->
-              <div class="checkout-form bg-light border rounded_pill p-4 mt-5">
+              <div class="checkout-form bg-light border rounded_pill p-4 mt-0">
                 <form method="post" action="#">
                     <div class="row clearfix">
                         <!--Column-->
-                        <div class="column col-lg-12 col-md-12 col-sm-12 rtl">
+                        <div class="column mx-auto col-11 rtl">
                             <div class="sec-title">
-                                <h3>تفاصيل الفاتورة</h3>
+                                <h3>تفاصيل الخدمة</h3>
                             </div>
 
                             <div class="row clearfix">
+
+                                 <!--Form Group-->
+                                 <div class="form-group col-md-12 col-sm-12">
+                                    <div class="field-label">نوع الوحدة <sup class="text-danger">*</sup></div>
+                                    <select>
+                                        <option>وحدة تجارية</option>
+                                        <option>وحدة سكنية </option>
+                                        <option>وحدة خدمية </option>
+                                    </select>
+                                </div>
                                 
                                 <!--Form Group-->
+                                <div class="form-group col-md-6 col-sm-12">
+                                    <div class="field-label"> مساحة الوحدة  (م<sup>2</sup>) <sup sup class="text-danger">*</sup></div>
+                                    <input type="number" name="field-name" value="" placeholder="">
+                                </div>
+                                
+                                <!--Form Group-->
+                                <div class="form-group col-md-6 col-sm-12">
+                                    <div class="field-label"> عدد الحمامات  <sup sup class="text-danger">*</sup></div>
+                                    <input type="number" name="field-name" value="" placeholder="">
+                                </div>
+
+                                <div class="form-group col-md-12 col-sm-12">
+                                    <div class="field-label"> مستوى التشطيب <sup class="text-danger">*</sup></div>
+                                    <select>
+                                        <option> متوسط </option>
+                                        <option> لوكس  </option>
+                                        <option> الترا لوكس </option>
+                                    </select>
+                                </div>
+
+                                <!-- Options-->
+                                <div class="Kind w-100 mt-5">
+                                    <ul class="d-flex justify-content-around flex-wrap">
+                                        <li>
+                                            <div class="radio-option">
+                                                <input type="radio" name="group" id="group-2" class="d-none" checked>
+                                                <label for="group-2" class="pa">
+                                                    <img src="./images/background/8.jpg" class="king_group">
+                                                    <p class="text_orange text-center mt-2">الكلاسيك </p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="radio-option">
+                                                <input type="radio" name="group" id="group-1" class="d-none">
+                                                <label for="group-1" class="pa">
+                                                    <img src="./images/background/4.jpg" class="king_group">
+                                                    <p class="text_orange text-center mt-2">المودرن  </p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        
+                                        <li>
+                                            <div class="radio-option">
+                                                <input type="radio" name="group" id="group-3" class="d-none">
+                                                <label for="group-3" class="pa">
+                                                    <img src="./images/background/5.jpg" class="king_group">
+                                                    <p class="text_orange text-center mt-2">نيو كلاسيك </p>
+                                                </label>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="radio-option">
+                                                <input type="radio" name="group" id="group-4" class="d-none">
+                                                <label for="group-4" class="pa">
+                                                    <img src="./images/background/6.jpg" class="king_group">
+                                                    <p class="text_orange text-center mt-2">أخري </p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+
+                                <div class="sec-title mt-5 mb-3">
+                                    <h3> الخدمة</h3>
+                                </div>
+
+                                    <!-- Options-->
+                                    <div class="w-100">
+                                        <ul class="d-flex justify-content-around flex-wrap">
+                                            <li>
+                                                <div class="text-center">
+                                                    <input type="checkbox" name="Design" id="Design-2" class="" checked>
+                                                    <label for="Design-2" class="text-center">
+                                                        <h4 class="text_orange text-center mt-2">الكلاسيك </h4>
+                                                    </label>
+                                                    <div class="form-group col-md-6 col-sm-12 d-flex mt-2">
+                                                        <div class="field-label ml-2 my-auto"> التكلفة</div>
+                                                        <input  value="5000 ج" disabled class="border">
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="">
+                                                    <input type="checkbox" name="Design" id="Design-1" class="" checked>
+                                                    <label for="Design-1" class="">
+                                                        <h4 class="text_orange text-center mt-2">المودرن  </h4>
+                                                    </label>
+                                                </div>
+                                            </li>
+                                            
+                                            <li>
+                                                <div class="">
+                                                    <input type="checkbox" name="Design" id="Design-3" class="" checked>
+                                                    <label for="Design-3" class="">
+                                                        <h4 class="text_orange text-center mt-2">للمقايسات  </h4>
+                                                    </label>
+                                                </div>
+                                            </li>
+    
+                                            
+                                        </ul>
+                                    </div>
+                                                
+                                            
+                               
+                                
+                            </div>
+                        </div>
+                        <!--Column-->
+                      
+                    </div>
+
+                    <div class="row clearfix mt-4">
+                        <!--Column-->
+                        <div class="column mx-auto col-11 rtl">
+                            <div class="sec-title mt-5">
+                                <h3>بينات العميل</h3>
+                            </div>
+
+                            <div class="row clearfix">
+
+                                   <!--Form Group-->
                                 <div class="form-group col-md-6 col-sm-12">
                                     <div class="field-label">الاسم الاول  <sup>*</sup></div>
                                     <input type="text" name="field-name" value="" placeholder="">
@@ -180,10 +283,13 @@
                                     <div class="field-label">العنوان</div>
                                     <input type="text" name="field-name" value="" placeholder="">
                                 </div>
+                                            
+                              
+                            
 
                                 <div class="cart-options clearfix">
                                     <div class="pull-right">
-                                        <button type="submit" class="theme-btn cart-btn">ارسال طلب للشراء</button>
+                                        <button type="submit" class="theme-btn cart-btn">ارسال طلب </button>
                                     </div>
                                 </div>
                                 
