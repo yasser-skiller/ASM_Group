@@ -18,11 +18,11 @@ body{
     position: relative;
 }
 .header-style-one .header-lower{
-    background-color: rgba(0,0,0,0.5) !important;
+    background-color: #26262680 !important;
 }
 .header-style-one .header-lower:before ,
 .header-style-one .header-lower:after{
-    border-top: 100px solid rgba(0,0,0,0.50) !important;
+    border-top: 100px solid #26262680 !important;
 }
 .logo{
 	padding: 5px !important;
@@ -180,7 +180,7 @@ body{
 .header-style-one .header-lower:after,
     .header-style-one,
     .header-style-one .main-box{
-        background-color: rgba(0,0,0,0.2) !important;
+        background-color: #26262680 !important;
     }
    .auto-container{
     padding: 0 !important;
