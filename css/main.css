@@ -2,13 +2,17 @@
     font-family: BankGothic;
     src: url('./../fonts/BankGothicLtBTLight.ttf');
 }
+@font-face {
+    font-family: Flux;
+    src: url('./../fonts/Flux\ Architect\ Regular.ttf');
+}
 body{
     background-image: url('./../images/paterrn.png');
     /* background-position: center; */
     background-repeat: repeat;
     /* background-size: contain; */
     background-attachment: fixed;
-    font-family: 'BankGothic' !important;
+    font-family: 'Flux' !important;
 }
 .Home_slider{
     height: 290px !important;
