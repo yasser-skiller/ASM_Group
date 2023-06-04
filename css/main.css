@@ -63,6 +63,9 @@ body{
 .about-section .content-column .content-box .title h2:before{
     right: 0 !important;
 }
+.checkout-form textarea{
+    height: 100px !important;
+}
 
 .sec_title{
     color:#ff8a00;
