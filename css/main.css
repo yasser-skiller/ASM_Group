@@ -59,6 +59,11 @@ body{
 	color: #a77132 !important;
 }
 
+.feature-block h3:before,
+.about-section .content-column .content-box .title h2:before{
+    right: 0 !important;
+}
+
 .sec_title{
     color:#ff8a00;
     font-size: 50px;
