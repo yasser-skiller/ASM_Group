@@ -12431,10 +12431,10 @@ header-style-seven .nav-toggler:hover{
 
 ***/
 
-.rtl{
+/* .rtl{
 	direction: rtl;
 	text-align: right;
-}
+} */
 
 .rtl .group-title h2,
 .rtl .styled-pagination,

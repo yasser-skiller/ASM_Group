@@ -6,15 +6,19 @@
 <meta charset="utf-8">
 <title>ASM Group | الرئيسية </title>
 <!-- Stylesheets -->
+
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet"> 
-<link href="css/responsive.css" rel="stylesheet">   
+<link href="css/video.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/rtl.css" rel="stylesheet">
+
+<link href="css/responsive.css" rel="stylesheet"> 
 <!--Color Switcher Mockup-->
 <link href="css/color-switcher-design.css" rel="stylesheet">
 <!--Color Themes-->
 <link id="theme-color-file" href="css/color-themes/default-theme.css" rel="stylesheet">
 
-<link href="css/main.css" rel="stylesheet">
 <link href="css/swiper-bundle.min.css" rel="stylesheet">  
 
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
@@ -25,6 +29,7 @@
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 
+
 </head>
 
 <body>
@@ -33,129 +38,163 @@
     <!-- Preloader -->
     <div class="preloader"></div>
 
-    <header class="main-header header-style-one HomeHeader">
+    <div class="main-header header-style-two">
+        <!--Header Top-->
+        <div class="header-top">
+            <div class="auto-container">
+                <div class="inner-container clearfix">
+                    <div class="top-left">
+                        <ul class="contact-list clearfix">
+                            <li><i class="fa fa-volume-control-phone"></i> 256 Interior the good, New York</li>
+                            <li><i class="fa fa-envelope"></i><a href="#">Supportyou@Interiores.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="top-right">
+                        
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                            <option value="ar">ar</option>
+                            <option value="en">en</option>
+                            
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Top -->
+       
+    </div>
+    <!-- Main Header-->
+    <header class="main-header header-style-one">
         <div class="auto-container">
             <div class="header-lower">
                 <div class="main-box clearfix">
-                    <div class="logo-box logo_box">
-                        <div class="logo">
+                    
+                    <div class="logo-box">
+                        <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" class="logo_home"></a></div>
+                    </div>
+
+                    <div class="nav-outer clearfix">
+                        <!-- Main Menu -->
+                        <nav class="main-menu navbar-expand-md ">
+                            <div class="navbar-header">
+                                <!-- Toggle Button -->      
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="icon flaticon-menu-button"></span>
+                                </button>
+                            </div>
                             
-                            <a href="index.html"><img src="images/logoWithoutTitle.png" class="logo_home mr-2" alt="" title=""></a>
-                            <h1 class="text-white">ASM Group</h1>
+                            <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
+                                <ul class="navigation clearfix">
+                                    <li class=""><a href="index.html">الرئيسية</a></li>
+                                    <li class=""><a href="about.html">من نحن</a></li>
+                                    <li class=""><a href="services.html">خدمتنا</a></li>
+                                    <li class=""><a href="projects.html">مشاربعنا</a></li>
+                                    <li class=""><a href="shop.html">المتجر</a></li>
+                                    <li class=""><a href="shoping-cart.html">الطلبات</a></li>
+                                    <li><a href="contact.html">تواصل معنا</a></li>
+                                </ul>
+                            </div>
+                             <!-- Outer Box-->
+                         <div class="outer-box">
+                            <!--Search Box-->
+                            <div class="search-box-outer">
+                                <div class="dropdown">
+                                    <button class="search-box-btn dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-search"></span></button>
+                                    <ul class="dropdown-menu pull-right search-panel" aria-labelledby="dropdownMenu3">
+                                        <li class="panel-outer">
+                                            <div class="form-container">
+                                                <form method="post" action="#">
+                                                    <div class="form-group rtl">
+                                                        <input type="search" name="field-name" value="" placeholder="ابحث هنا " required>
+                                                        <button type="submit" class="search-btn"><span class="fa fa-search"></span></button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
+                        </nav><!-- Main Menu End-->    
+
                     </div>
                 </div>
             </div>
         </div>
     </header>
+    <!--End Main Header -->
 
-    
-    
-    <!-- Swiper -->
-    <section id="id">
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <a href="index.html">
-                    <img src="images/resource/service-4.jpg" />
-                    <h4 class="text-center tit">الرئيسية</h4>
-                </a>
+    <!-- Bnner Section -->
+    <section class="banner-section Home_land">
+        <div class="banner-carousel owl-carousel owl-theme">
+            <div class="slide-item" style="background-image: url(images/main-slider/image-1.jpg);">
+                <div class="auto-container">
+                    <div class="content-box rtl">
+                        <h2>Architecture is a <br> Visual Art.</h2>
+                        <div class="text">The buildings speak for themselves</div>
+                        <div class="link-box">
+                            <a href="about.html" class="theme-btn btn-style-one">مشاريعنا </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="swiper-slide">
-                    <a href="about.html">
-                        <img src="images/resource/service-5.jpg" />
-                        <h4 class="text-center tit">من نحــن</h4>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="projects.html">
-                        <img src="images/resource/service-6.jpg" />
-                        <h4 class="text-center tit">مشاريعنا</h4>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href=".html">
-                        <img src="images/resource/service-7.jpg" />
-                        <h4 class="text-center tit">خدمتنا</h4>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="shop.html">
-                        <img src="images/resource/service-9.jpg" />
-                        <h4 class="text-center tit">المتجر</h4>
-                    </a>
-                    
-                </div>
-                <div class="swiper-slide">
-                <a href="services.html">
-                    <img src="images/resource/news-10.jpg" />
-                    <h4 class="text-center tit">الطلبات</h4>
-                </a>
-                
             </div>
-                <div class="swiper-slide">
-                    <a href="contact.html">
-                        <img src="images/resource/service-8.jpg" />
-                        <h4 class="text-center tit">تواصل معنا</h4>
-                    </a>
-                    
-                </div>
-            
-        <!-- <div class="swiper-pagination"></div> -->
-        </div>
-    </section>
 
-       <!-- Process Section -->
-       <section class="process-section" style="background-image: url(images/background/8.jpg);">
-        <div class="auto-container">
-            <div class="sec-title light">
-                <span class="float-text">HOW WE WORK</span>
-                <h2>Proven Process</h2>
+            <div class="slide-item" style="background-image: url(images/main-slider/image-2.jpg);">
+                <div class="auto-container">
+                    <div class="content-box rtl">
+                        <h2>Architecture is a <br> Visual Art.</h2>
+                        <div class="text">The buildings speak for themselves</div>
+                        <div class="link-box">
+                            <a href="about.html" class="theme-btn btn-style-one">خدمتنا </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <!-- Process Block -->
-                <div class="process-block col-lg-3 col-md-6 col-sm-12">
-                    <div class="inner-box">
-                        <span class="count">01</span>
-                        <h4><a href="service-detail.html">Concept</a></h4>
-                        <div class="text">When an unknown printer took a galley of type and scrambled it to make a book.</div>
-                        <div class="link-box"><a href="service-detail.html">Read More</a></div>
-                    </div>
-                </div>
 
-                <!-- Process Block -->
-                <div class="process-block col-lg-3 col-md-6 col-sm-12">
-                    <div class="inner-box">
-                        <span class="count">02</span>
-                        <h4><a href="service-detail.html">Idea</a></h4>
-                        <div class="text">When an unknown printer took a galley of type and scrambled it to make a book.</div>
-                        <div class="link-box"><a href="service-detail.html">Read More</a></div>
-                    </div>
-                </div>
-
-                <!-- Process Block -->
-                <div class="process-block col-lg-3 col-md-6 col-sm-12">
-                    <div class="inner-box">
-                        <span class="count">03</span>
-                        <h4><a href="service-detail.html">Design</a></h4>
-                        <div class="text">When an unknown printer took a galley of type and scrambled it to make a book.</div>
-                        <div class="link-box"><a href="service-detail.html">Read More</a></div>
-                    </div>
-                </div>
-
-                <!-- Process Block -->
-                <div class="process-block col-lg-3 col-md-6 col-sm-12">
-                    <div class="inner-box">
-                        <span class="count">04</span>
-                        <h4><a href="service-detail.html">excecution</a></h4>
-                        <div class="text">When an unknown printer took a galley of type and scrambled it to make a book.</div>
-                        <div class="link-box"><a href="service-detail.html">Read More</a></div>
+            <div class="slide-item" style="background-image: url(images/main-slider/image-3.jpg);">
+                <div class="auto-container">
+                    <div class="content-box rtl">
+                        <h2>Architecture is a <br> Visual Art.</h2>
+                        <div class="text">The buildings speak for themselves</div>
+                        <div class="link-box">
+                            <a href="about.html" class="theme-btn btn-style-one">المتجر </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+      
     </section>
-    <!--End Process Section -->
+    <!-- End Bnner Section -->
+
+    <section class="icons">
+        <div class="auto-container my-5">
+            <div class="row justify-content-around">
+                <a class="c_pointer m-3" href="about.html">
+                    <img src="./images/icons/group.png" class="header_icon">
+                    <p class="text-center">من نحن</p>
+                </a>
+                <a class="c_pointer m-3" href="projects.html">
+                    <img src="./images/icons/blueprint.png" class="header_icon">
+                    <p class="text-center">مشاريعنا</p>
+                </a>
+                <a class="c_pointer m-3" href="services.html">
+                    <img src="./images/icons/project-management.png" class="header_icon">
+                    <p class="text-center">خدمتنا</p>
+                </a>
+                <a class="c_pointer m-3" href="shop.html">
+                    <img src="./images/icons/store.png" class="header_icon">
+                    <p class="text-center">المتجر</p>
+                </a>
+                <a class="c_pointer m-3" href="contact.html">
+                    <img src="./images/icons/contact-mail.png" class="header_icon">
+                    <p class="text-center">تواصل معنا</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
 
      <!-- Video Section -->
      <section class="video-section">
@@ -177,8 +216,29 @@
                     <div class="video-column col-lg-6 col-md-12 col-sm-12">
                         <div class="inner-column">
                             <div class="video-box">
-                                 <figure class="image"><img src="images/resource/video-img.jpg" alt="">
-                                    <a href="https://www.youtube.com/watch?v=WgZPGhc-Ax4" target="_blank" class="link" ><span class="icon fa fa-play"></span></a>
+                                 <figure class="image my_video">
+                                    <!-- <a  class="link z_index" ><span class="icon fa fa-play"></span></a> -->
+                                    <video
+                                        id="my-video"
+                                        class="video-js vjs-theme-fantasy mx-auto"
+                                        controls
+                                        poster="images/resource/video-img.jpg"
+                                        preload="auto"
+                                        width="100%"
+                                        height="300px"
+                                        data-setup='{
+                                            "playbackRates": [0.25, 0.5, 1, 1.25,1.50, 1.75, 2]
+                                        }'
+                                        >
+                                        <source src="video/dw.mp4" type="video/mp4" />
+                                        <p class="vjs-no-js">
+                                            To view this video please enable JavaScript, and consider upgrading to a
+                                            web browser that
+                                            <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                            >supports HTML5 video</a
+                                            >
+                                        </p>
+                                    </video> 
                                 </figure>
                             </div>
                         </div>
@@ -189,304 +249,65 @@
     </section>
     <!--End Video Section -->
 
-    <!--Sidebar Page Container-->
-    <div class="sidebar-page-container">
+    <!-- Projects Section Two -->
+    <section class="projects-section-two">
         <div class="auto-container">
-            <div class="row clearfix">
-               
-                
-                <!--Content Side-->
-                <div class="content-side col-xl-9 col-lg-8 col-md-12">
-                    <div class="our-shop">
-                        <div class="row clearfix px-3">
-                        
-                            <!--Shop Item-->
-                            <div class="shop-item col-xl-4 col-lg-4 col-md-4 col-sm-5 col-10 mx-auto">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <img src="images/resource/products/1.jpg" alt="" />
-                                        <div class="overlay-box">
-                                            <ul class="cart-option">
-                                                <li><a href="shop-single.html"><span class="fa fa-link"></span></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="lower-content rtl">
-                                        <h3><a href="shop-single.html">اسم المنتج </a></h3>
-                                        <div class="clearfix">
-                                            <div class="pull-left">
-                                                <div class="price"> L.E 12.00</div>
-                                            </div>
-                                            <div class="pull-right">
-                                                <a class="add-cart" href="shop-single.html"><span class="fa fa-cart-plus"></span>أضف للسلة</a>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                                
-                            </div>
-
-                            
-                            <!--Shop Item-->
-                            <div class="shop-item col-xl-4 col-lg-4 col-md-4 col-sm-5 col-10 mx-auto">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <img src="images/resource/products/2.jpg" alt="" />
-                                        <div class="overlay-box">
-                                            <ul class="cart-option">
-                                                <li><a href="shop-single.html"><span class="fa fa-link"></span></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="lower-content rtl">
-                                        <h3><a href="shop-single.html">اسم المنتج </a></h3>
-                                        <div class="clearfix">
-                                            <div class="pull-left">
-                                                <div class="price"> L.E 12.00</div>
-                                            </div>
-                                            <div class="pull-right">
-                                                <a class="add-cart" href="shop-single.html"><span class="fa fa-cart-plus"></span>أضف للسلة</a>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            
-                            <!--Shop Item-->
-                            <div class="shop-item col-xl-4 col-lg-4 col-md-4 col-sm-5 col-10 mx-auto">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <img src="images/resource/products/3.jpg" alt="" />
-                                        <div class="overlay-box">
-                                            <ul class="cart-option">
-                                                <li><a href="shop-single.html"><span class="fa fa-link"></span></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="lower-content rtl">
-                                        <h3><a href="shop-single.html">اسم المنتج </a></h3>
-                                        <div class="clearfix">
-                                            <div class="pull-left">
-                                                <div class="price"> L.E 12.00</div>
-                                            </div>
-                                            <div class="pull-right">
-                                                <a class="add-cart" href="shop-single.html"><span class="fa fa-cart-plus"></span>أضف للسلة</a>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!--Shop Item-->
-                            <div class="shop-item col-xl-4 col-lg-4 col-md-4 col-sm-5 col-10 mx-auto">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <img src="images/resource/products/4.jpg" alt="" />
-                                        <div class="overlay-box">
-                                            <ul class="cart-option">
-                                                <li><a href="shop-single.html"><span class="fa fa-link"></span></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="lower-content rtl">
-                                        <h3><a href="shop-single.html">اسم المنتج </a></h3>
-                                        <div class="clearfix">
-                                            <div class="pull-left">
-                                                <div class="price"> L.E 12.00</div>
-                                            </div>
-                                            <div class="pull-right">
-                                                <a class="add-cart" href="shop-single.html"><span class="fa fa-cart-plus"></span>أضف للسلة</a>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!--Shop Item-->
-                            <div class="shop-item col-xl-4 col-lg-4 col-md-4 col-sm-5 col-10 mx-auto">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <img src="images/resource/products/5.jpg" alt="" />
-                                        <div class="overlay-box">
-                                            <ul class="cart-option">
-                                                <li><a href="shop-single.html"><span class="fa fa-link"></span></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="lower-content rtl">
-                                        <h3><a href="shop-single.html">اسم المنتج </a></h3>
-                                        <div class="clearfix">
-                                            <div class="pull-left">
-                                                <div class="price"> L.E 12.00</div>
-                                            </div>
-                                            <div class="pull-right">
-                                                <a class="add-cart" href="shop-single.html"><span class="fa fa-cart-plus"></span>أضف للسلة</a>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!--Shop Item-->
-                            <div class="shop-item col-xl-4 col-lg-4 col-md-4 col-sm-5 col-10 mx-auto">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <img src="images/resource/products/6.jpg" alt="" />
-                                        <div class="overlay-box">
-                                            <ul class="cart-option">
-                                                <li><a href="shop-single.html"><span class="fa fa-link"></span></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="lower-content rtl">
-                                        <h3><a href="shop-single.html">اسم المنتج </a></h3>
-                                        <div class="clearfix">
-                                            <div class="pull-left">
-                                                <div class="price"> L.E 12.00</div>
-                                            </div>
-                                            <div class="pull-right">
-                                                <a class="add-cart" href="shop-single.html"><span class="fa fa-cart-plus"></span>أضف للسلة</a>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!--Shop Item-->
-                            <div class="shop-item col-xl-4 col-lg-4 col-md-4 col-sm-5 col-10 mx-auto">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <img src="images/resource/products/7.jpg" alt="" />
-                                        <div class="overlay-box">
-                                            <ul class="cart-option">
-                                                <li><a href="shop-single.html"><span class="fa fa-link"></span></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="lower-content rtl">
-                                        <h3><a href="shop-single.html">اسم المنتج </a></h3>
-                                        <div class="clearfix">
-                                            <div class="pull-left">
-                                                <div class="price"> L.E 12.00</div>
-                                            </div>
-                                            <div class="pull-right">
-                                                <a class="add-cart" href="shop-single.html"><span class="fa fa-cart-plus"></span>أضف للسلة</a>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!--Shop Item-->
-                            <div class="shop-item col-xl-4 col-lg-4 col-md-4 col-sm-5 col-10 mx-auto">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <img src="images/resource/products/8.jpg" alt="" />
-                                        <div class="overlay-box">
-                                            <ul class="cart-option">
-                                                <a class="add-cart" href="shop-single.html"><span class="fa fa-cart-plus"></span>أضف للسلة</a>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="lower-content rtl">
-                                        <h3><a href="shop-single.html">اسم المنتج </a></h3>
-                                        <div class="clearfix">
-                                            <div class="pull-left">
-                                                <div class="price"> L.E 12.00</div>
-                                            </div>
-                                            <div class="pull-right">
-                                                <a class="add-cart" href="shop-single.html"><span class="fa fa-cart-plus"></span>أضف للسلة</a>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!--Shop Item-->
-                            <div class="shop-item col-xl-4 col-lg-4 col-md-4 col-sm-5 col-10 mx-auto">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <img src="images/resource/products/9.jpg" alt="" />
-                                        <div class="overlay-box">
-                                            <ul class="cart-option">
-                                                <li><a href="shop-single.html"><span class="fa fa-link"></span></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="lower-content rtl">
-                                        <h3><a href="shop-single.html">اسم المنتج </a></h3>
-                                        <div class="clearfix">
-                                            <div class="pull-left">
-                                                <div class="price"> L.E 12.00</div>
-                                            </div>
-                                            <div class="pull-right">
-                                                <a class="add-cart" href="shop-single.html"><span class="fa fa-cart-plus"></span>أضف للسلة</a>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <!--Post Share Options-->
-                        <div class="styled-pagination">
-                            <ul class="clearfix">
-                                <li class="prev-post"><a href="#"><span class="fa fa-long-arrow-left"></span> Prev</a></li>
-                                <li><a href="#">1</a></li>
-                                <li class="active"><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li class="next-post"><a href="#"> Next <span class="fa fa-long-arrow-right"></span> </a></li>
-                            </ul>
-                        </div>
+            <div class="upper-box clearfix">
+                <div class="sec-title">
+                    <span class="float-text">Project</span>
+                    <h2>Our Best Work</h2>
+                </div>
+                <div class="link-box"><a href="projects.html">All Project <i class="fa fa-long-arrow-right"></i></a></div>
+            </div>
+            <div class="projects-carousel-two owl-carousel owl-theme">
+                <!-- Project Block -->
+                <div class="project-block-two">
+                    <div class="image-box">
+                        <figure class="image"><img src="images/resource/project-1.jpg" alt=""></figure>
+                    </div>
+                    <div class="info-box">
+                        <div class="inner-box">
+                            <span class="title">RESIDENTAL</span>  
+                            <h3>Barrio Metalico</h3>
+                            <div class="text">incredible opportunity to purchase this elegant, bright, and spacious duplex-up penthouse.</div>
+                            <div class="link-box"><a href="project-detail.html">View Project</a></div>
+                        </div> 
                     </div>
                 </div>
-                
-                  <!--Sidebar Side-->
-                  <div class="sidebar-side col-xl-3 col-lg-4 col-md-12">
-                    <aside class="sidebar">
-                        
-                        <!-- Search -->
-                        <div class="sidebar-widget search-box">
-                            <form method="post" action="#">
-                                <div class="form-group rtl">
-                                    <input type="search" name="search-field" value="" placeholder="بحث ..." required>
-                                    <button type="submit"><span class="icon fa fa-search"></span></button>
-                                </div>
-                            </form>
-                        </div>
-                        
-                        <!--Blog Category Widget-->
-                        <div class="sidebar-widget sidebar-blog-category rtl">
-                            <div class="sidebar-title">
-                                <h3>تصنيف</h3>
-                                <div class="separater"></div>
-                            </div>
-                            <ul class="cat-list">
-                                <li class="clearfix"><a href="#">ادوات سباكة <span>15</span></a></li>
-                                <li class="clearfix"><a href="#">اضاءه <span>23</span></a></li>
-                                <li class="clearfix active"><a href="#">نجاره <span>49</span></a></li>
-                                <li class="clearfix"><a href="#">اثاث <span>32</span></a></li>
-                                <li class="clearfix"><a href="#">سراميك <span>44</span></a></li>
-                            </ul>
-                        </div>
-                         
-                    </aside>
+
+                <!-- Project Block -->
+                <div class="project-block-two">
+                    <div class="image-box">
+                        <figure class="image"><img src="images/resource/project-2.jpg" alt=""></figure>
+                    </div>
+                    <div class="info-box">
+                        <div class="inner-box">
+                            <span class="title">RESIDENTAL</span>  
+                            <h3>Barrio Metalico</h3>
+                            <div class="text">incredible opportunity to purchase this elegant, bright, and spacious duplex-up penthouse.</div>
+                            <div class="link-box"><a href="project-detail.html">View Project</a></div>
+                        </div> 
+                    </div>
                 </div>
-                
+
+                <!-- Project Block -->
+                <div class="project-block-two">
+                    <div class="image-box">
+                        <figure class="image"><img src="images/resource/project-1.jpg" alt=""></figure>
+                    </div>
+                    <div class="info-box">
+                        <div class="inner-box">
+                            <span class="title">RESIDENTAL</span>  
+                            <h3>Barrio Metalico</h3>
+                            <div class="text">incredible opportunity to purchase this elegant, bright, and spacious duplex-up penthouse.</div>
+                            <div class="link-box"><a href="project-detail.html">View Project</a></div>
+                        </div> 
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <!--End Sidebar Page Container-->
+    </section>
+    <!--End Projects Section Two -->
  
 
 </div>
@@ -507,6 +328,7 @@
 <script src="js/swiper-bundle.min.js"></script> 
 <!-- Color Setting -->
 <script src="js/color-settings.js"></script>
+<script src="js/video.min.js"></script>
 <script src="js/main.js"></script>
 
 </body>
