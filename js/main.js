@@ -40,3 +40,15 @@ if(document.querySelector('.mySwiper')){
         },
       });
 }
+
+// language
+window.addEventListener('load', ()=>{
+    if(localStorage.getItem('lang') == null){
+        localStorage.setItem('lang', 'ar')
+    }
+})
+
+document.querySelector("#langInput").addEventListener('change',()=>{
+    localStorage.setItem('lang', `${document.querySelector("#langInput").value}` )
+
+})

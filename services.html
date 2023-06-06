@@ -30,6 +30,20 @@
 <div class="page-wrapper">
     <!-- Preloader -->
     <div class="preloader"></div>
+
+    <!-- <div class="alert alert-success" role="alert">
+        A simple success alert—check it out!
+    </div>
+
+    <div class="alert alert-danger" role="alert">
+        A simple danger alert—check it out!
+      </div>
+
+      <div class="alert alert-warning" role="alert">
+        A simple warning alert—check it out!
+      </div> -->
+
+
     <div class="main-header header-style-two">
         <!--Header Top-->
         <div class="header-top">
@@ -43,7 +57,7 @@
                     </div>
                     <div class="top-right">
                         
-                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                        <select id="langInput" class="form-select form-select-sm" aria-label=".form-select-sm example">
                             <option value="ar">ar</option>
                             <option value="en">en</option>
                             
@@ -162,16 +176,18 @@
                                         <option>وحدة سكنية </option>
                                         <option>وحدة خدمية </option>
                                     </select>
+                                    <p class="text-danger">رسالة تحذير</p>
                                 </div>
                                 
+                                
                                 <!--Form Group-->
-                                <div class="form-group col-md-6 col-sm-12">
+                                <div class="form-group col-md-12 col-sm-12">
                                     <div class="field-label"> مساحة الوحدة  (م<sup>2</sup>) <sup sup class="text-danger">*</sup></div>
                                     <input type="number" name="field-name" value="" placeholder="">
                                 </div>
                                 
                                 <!--Form Group-->
-                                <div class="form-group col-md-6 col-sm-12">
+                                <div class="form-group col-md-12 col-sm-12">
                                     <div class="field-label"> عدد الحمامات  <sup sup class="text-danger">*</sup></div>
                                     <input type="number" name="field-name" value="" placeholder="">
                                 </div>
@@ -186,7 +202,7 @@
                                 </div>
 
                                 <div class="form-group col-12">
-                                    <div class="field-label">  ملحوظات <sup class="text-danger">*</sup></div>
+                                    <div class="field-label">  ملحوظات </div>
                                     <textarea  name="message" placeholder=""></textarea>
                                 </div>
 
@@ -236,13 +252,13 @@
                                 </div>
 
                                 <div class="sec-title mt-5 mb-3">
-                                    <h3> الخدمة</h3>
+                                    <h3> الخدمة<sup class="text-danger">*</sup></h3>
                                 </div>
 
                                 <!-- Options-->
                                 <div class="w-100">
                                     <ul class="d-flex justify-content-around flex-wrap">
-                                        <li>
+                                        <li class="m-3">
                                             <div class="text-center">
                                                 <input type="checkbox" name="Design" id="Design-2" class="" checked>
                                                 <label for="Design-2" class="text-center c_pointer">
@@ -250,35 +266,65 @@
                                                 </label>
                                                 <div class="form-group col-md-6 col-sm-12 d-flex mt-2">
                                                     <div class="field-label ml-2 my-auto"> التكلفة</div>
-                                                    <input  value="5000 ج" disabled class="border">
+                                                    <input  value="5000 ج" disabled class="border text-center">
                                                 </div>
                                             </div>
                                         </li>
-                                        <li>
+                                        <li class="m-3">
                                             <div class="text-center">
                                                 <input type="checkbox" name="Design" id="Design-3" class="" checked>
                                                 <label for="Design-3" class="text-center c_pointer">
-                                                    <h4 class="text_orange text-center mt-2">للمقايسات </h4>
+                                                    <h4 class="text_orange text-center mt-2">المقايسات </h4>
                                                 </label>
                                                 <div class="form-group col-md-6 col-sm-12 d-flex mt-2">
                                                     <div class="field-label ml-2 my-auto"> التكلفة</div>
-                                                    <input  value="5000 ج" disabled class="border">
+                                                    <input  value="5000 ج" disabled class="border text-center">
                                                 </div>
                                             </div>
                                         </li>
 
-                                        <li>
+                                        <li class="m-3">
                                             <div class="text-center">
                                                 <input type="checkbox" name="Design" id="Design-1" class="" checked>
                                                 <label for="Design-1" class="text-center c_pointer">
-                                                    <h4 class="text_orange text-center mt-2">سومات تنفيذية </h4>
+                                                    <h4 class="text_orange text-center mt-2">رسومات تنفذية </h4>
                                                 </label>
                                                 <div class="form-group col-md-6 col-sm-12 d-flex mt-2">
                                                     <div class="field-label ml-2 my-auto"> التكلفة</div>
-                                                    <input  value="5000 ج" disabled class="border">
+                                                    <input  value="5000 ج" disabled class="border text-center">
                                                 </div>
                                             </div>
                                         </li>
+
+                                        <li class="m-3">
+                                            <div class="text-center">
+                                                <input type="checkbox" name="Design" id="Design-1" class="" checked>
+                                                <label for="Design-1" class="text-center c_pointer">
+                                                    <h4 class="text_orange text-center mt-2"> تنفيذ </h4>
+                                                </label>
+                                                <div class="form-group col-md-6 col-sm-12 d-flex mt-2">
+                                                    <div class="field-label ml-2 my-auto"> التكلفة</div>
+                                                    <input  value="5000 ج" disabled class="border text-center">
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+
+
+                                        <li class="m-3">
+                                            <div class="text-center">
+                                                <input type="checkbox" name="Design" id="Design-1" class="" checked>
+                                                <label for="Design-1" class="text-center c_pointer">
+                                                    <h4 class="text_orange text-center mt-2"> فرش </h4>
+                                                </label>
+                                                <div class="form-group col-md-6 col-sm-12 d-flex mt-2">
+                                                    <div class="field-label ml-2 my-auto"> التكلفة</div>
+                                                    <input  value="5000 ج" disabled class="border text-center">
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+
                                         
 
                                         
@@ -333,7 +379,7 @@
                                 
                                 <!--Form Group-->
                                 <div class="form-group col-md-6 col-sm-12">
-                                    <div class="field-label">رقم الهاتف</div>
+                                    <div class="field-label">رقم الهاتف <sup class="text-danger">*</sup></div>
                                     <input type="text" name="field-name" value="" placeholder="">
                                 </div>
                                 
@@ -352,13 +398,15 @@
                                             
                               
                             
+                               
 
+                                
                                 <div class="cart-options clearfix">
                                     <div class="pull-right">
                                         <button type="submit" class="theme-btn cart-btn">ارسال طلب </button>
                                     </div>
                                 </div>
-                                
+                               
                                
                                 
                             </div>
@@ -372,6 +420,9 @@
         </div>
     </section>
     <!--End Cart Section-->
+
+
+    
 
     <!-- Main Footer -->
     <footer class="main-footer alternate rtl" style="background-image: url(images/background/5.jpg);">

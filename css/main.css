@@ -193,6 +193,17 @@ input[type=checkbox] {
     height: 100px;
 }
 
+/*  */
+
+.alert{
+    position: fixed !important;
+    z-index: 900000;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
 /* slider 2 */
 
 #id .swiper {
