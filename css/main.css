@@ -203,30 +203,12 @@ input[type=checkbox] {
     right: 0;
     width: 100%;
 }
+.search-box-outer .panel-outer a{
+    color: #676767 ;
+}
 
-/* slider 2 */
-
-#id .swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  #id  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 360px;
-  }
-
-  #id  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 320px;
-
-  }
-  #id .swiper-slide a:hover{
-    color: #e86f1e;
+.search-box-outer .panel-outer a:hover{ 
+    color: #e86f1e !important;
   }
   
   #my-video{

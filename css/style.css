@@ -469,10 +469,33 @@ ul,li{
 	height:100%; 
 	z-index:999999; 
 	background-color:#ffffff; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.preloader .logo{ 
+	position:absolute; 
+	left:auto;
+	right: auto; 
+	top:auto; 
+	width:100px; 
+	height:100px; 
+	z-index:9999999; 
 	background-position:center center; 
 	background-repeat:no-repeat; 
 	background-image:url(../images/logoWithoutTitle.png);
 	background-size: contain;
+}
+.preloader .loading{
+	position:absolute; 
+	left:auto;
+	right: 0; 
+	top:50px; 
+	z-index:9999999; 
+}
+.spinner-grow{
+	width: 1rem;
+	height: 1rem;
 }
 
 img{
