@@ -171,9 +171,9 @@
                                  <!--Form Group-->
                                  <div class="form-group col-md-12 col-sm-12">
                                     <div class="field-label">نوع الوحدة <sup class="text-danger">*</sup></div>
-                                    <select>
+                                    <select id="UnitKind">
                                         <option>وحدة تجارية</option>
-                                        <option>وحدة سكنية </option>
+                                        <option selected>وحدة سكنية </option>
                                         <option>وحدة خدمية </option>
                                     </select>
                                     <p class="text-danger">رسالة تحذير</p>
@@ -183,20 +183,20 @@
                                 <!--Form Group-->
                                 <div class="form-group col-md-12 col-sm-12">
                                     <div class="field-label"> مساحة الوحدة  (م<sup>2</sup>) <sup sup class="text-danger">*</sup></div>
-                                    <input type="number" name="field-name" value="" placeholder="">
+                                    <input type="number" name="field-name" id="Area" value="200" placeholder="">
                                 </div>
                                 
                                 <!--Form Group-->
                                 <div class="form-group col-md-12 col-sm-12">
                                     <div class="field-label"> عدد الحمامات  <sup sup class="text-danger">*</sup></div>
-                                    <input type="number" name="field-name" value="" placeholder="">
+                                    <input type="number" name="field-name" id="PathRoom" value="3" placeholder="">
                                 </div>
 
                                 <div class="form-group col-md-12 col-sm-12">
                                     <div class="field-label"> مستوى التشطيب <sup class="text-danger">*</sup></div>
-                                    <select>
+                                    <select id="level">
                                         <option> متوسط </option>
-                                        <option> لوكس  </option>
+                                        <option selected> لوكس  </option>
                                         <option> الترا لوكس </option>
                                     </select>
                                 </div>
@@ -266,7 +266,7 @@
                                                 </label>
                                                 <div class="form-group col-md-6 col-sm-12 d-flex mt-2">
                                                     <div class="field-label ml-2 my-auto"> التكلفة</div>
-                                                    <input  value="5000 ج" disabled class="border text-center">
+                                                    <input  id="Design3" disabled class="border text-center">
                                                 </div>
                                             </div>
                                         </li>
@@ -278,7 +278,7 @@
                                                 </label>
                                                 <div class="form-group col-md-6 col-sm-12 d-flex mt-2">
                                                     <div class="field-label ml-2 my-auto"> التكلفة</div>
-                                                    <input  value="5000 ج" disabled class="border text-center">
+                                                    <input  id="almuqayasat" disabled class="border text-center">
                                                 </div>
                                             </div>
                                         </li>
@@ -291,7 +291,7 @@
                                                 </label>
                                                 <div class="form-group col-md-6 col-sm-12 d-flex mt-2">
                                                     <div class="field-label ml-2 my-auto"> التكلفة</div>
-                                                    <input  value="5000 ج" disabled class="border text-center">
+                                                    <input  id="althaalith" disabled class="border text-center">
                                                 </div>
                                             </div>
                                         </li>
@@ -304,7 +304,7 @@
                                                 </label>
                                                 <div class="form-group col-md-6 col-sm-12 d-flex mt-2">
                                                     <div class="field-label ml-2 my-auto"> التكلفة</div>
-                                                    <input  value="5000 ج" disabled class="border text-center">
+                                                    <input  id="tanfidh" disabled class="border text-center">
                                                 </div>
                                             </div>
                                         </li>
@@ -319,7 +319,7 @@
                                                 </label>
                                                 <div class="form-group col-md-6 col-sm-12 d-flex mt-2">
                                                     <div class="field-label ml-2 my-auto"> التكلفة</div>
-                                                    <input  value="5000 ج" disabled class="border text-center">
+                                                    <input id="firsh" disabled class="border text-center">
                                                 </div>
                                             </div>
                                         </li>
